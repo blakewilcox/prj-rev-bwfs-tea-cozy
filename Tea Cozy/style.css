@@ -1,0 +1,147 @@
+/* Content */
+
+body
+{
+font-family: helvetica;
+font-size: 22px;
+background-color: black;
+color: seashell;
+opacity: 0.9;
+}
+
+nav
+{
+display: flex;
+}
+
+/* Header */
+
+img
+{
+height: 50px;
+margin-right: 50px;
+}
+
+header
+{
+display: flex;
+height: 69px;
+text-decoration: underline;
+border-bottom: 1px solid seashell;
+position: fixed;
+justify-content: space-between;
+z-index: 9;
+top: 0;
+background: black;
+width: 99%;
+align-items: center;
+
+}
+
+header span
+{
+padding-left: 20px;
+}
+
+/* First Column */
+
+.background
+{
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+width:1200px;
+height: 700px;
+background-position: center;
+display: flex;
+margin: 0 auto;
+align-items: center;
+}
+
+.second
+{
+display: block;
+color: seashell;
+text-align: center;
+opacity: 0.9;
+background-color:black;
+width: 100%;
+
+}
+
+/* Second Column */
+
+.teamonth
+{
+display: block;
+text-align: center;
+}
+.teamonth img
+{
+height: 200px;
+width: 300px;
+margin:0 1em;
+}
+
+.tea
+{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 auto;
+width: 1200px;
+}
+
+.tea div
+{
+margin: 10px 0;
+}
+
+/* Third Column */
+
+.downtown,
+.eastbayside,
+.oakdale
+{
+
+background-color: black;
+width: 300px;
+margin: 0 1em;
+}
+.locations
+{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.locationimage
+{
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+width: 1200px;
+height: 500px;
+margin: 0 auto;
+padding-top: 7.5%;
+}
+
+h2
+{
+text-align: center;
+color: white;
+}
+
+/* Fourth Column */
+
+.teacozy
+{
+height:200px;
+width: 100%;
+text-align: center;
+}
+
+/* Fifth Column */
+
+.contact
+{
+text-align: left;
+}
